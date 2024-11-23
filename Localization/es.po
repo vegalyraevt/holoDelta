@@ -1,33 +1,30 @@
-# LANGUAGE translation for holoDelta - future for the following files:
-# res://Scenes/board.tscn
-#
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: holoDelta - future\n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Language: en\n"
+"Project-Id-Version: holodelta\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.5\n"
+"Content-Transfer-Encoding: 8-bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: holodelta\n"
+"X-Crowdin-Project-ID: 724315\n"
+"X-Crowdin-Language: es-ES\n"
+"X-Crowdin-File: template.pot\n"
+"X-Crowdin-File-ID: 6\n"
+"Language-Team: Spanish\n"
+"Language: es_ES\n"
+"PO-Revision-Date: 2024-11-23 04:30\n"
 
 #: Scenes/board.tscn
 msgid "SEND_CHAT"
-msgstr "Send"
+msgstr "Enviar"
 
 #: Scenes/board.tscn
 msgid "OPTION_COSMETICS_HIDE"
-msgstr "Hide Opponent Cosmetics"
+msgstr "Ocultar Cosméticos del Oponente"
 
 #: Scenes/board.tscn
 msgid "TAB_INFO"
-msgstr "Info"
+msgstr ""
 
 #: Scenes/board.tscn
 msgid "TAB_CHAT"
@@ -39,27 +36,27 @@ msgstr "Sett."
 
 #: Scenes/board.tscn
 msgid "STEP1"
-msgstr "Reset"
+msgstr ""
 
 #: Scenes/board.tscn
 msgid "STEP2"
-msgstr "Draw"
+msgstr ""
 
 #: Scenes/board.tscn
 msgid "STEP3"
-msgstr "Cheer"
+msgstr ""
 
 #: Scenes/board.tscn
 msgid "STEP4"
-msgstr "Main"
+msgstr ""
 
 #: Scenes/board.tscn
 msgid "STEP5"
-msgstr "Perf."
+msgstr ""
 
 #: Scenes/board.tscn
 msgid "STEP6"
-msgstr "End"
+msgstr ""
 
 #: Scenes/board.tscn
 msgid "CONNECT_HOST"
@@ -67,367 +64,384 @@ msgstr "Host"
 
 #: Scenes/board.tscn
 msgid "CONNECT_JOIN"
-msgstr "Join"
+msgstr "Unirse"
 
 #: Scenes/board.tscn
 msgid "CONNECT_DIRECT_PROMPT"
-msgstr "Enter IP Address"
+msgstr "Ingresar dirección IP"
 
 #: Scenes/board.tscn
 msgid "CONNECT_STEAM"
-msgstr "Connect with Steam"
+msgstr "Conectar con Steam"
 
 #: Scenes/board.tscn
 msgid "CONNECT_DIRECT"
-msgstr "Connect with IP"
+msgstr "Conectar con IP"
 
 #: Scenes/board.tscn
 msgid "TITLE"
-msgstr "holoDelta"
+msgstr ""
 
 #: Scenes/board.tscn
 msgid "SUBTITLE"
-msgstr "An unofficial Hololive OCG simulator"
+msgstr ""
 
 #: Scenes/board.tscn
 msgid "CONNECT_STEAM_PUBLIC"
-msgstr "Public"
+msgstr "Público"
 
 #: Scenes/board.tscn
 msgid "CONNECT_SEARCH_CANCEL"
-msgstr "Friends Only"
+msgstr "Solo Amigos"
 
 #: Scenes/board.tscn
 msgid "CONNECT_IP_CANCEL"
-msgstr "Cancel"
+msgstr "Cancelar"
 
 #: Scenes/board.tscn
 msgid "DECK_CREATE"
-msgstr "Create/Edit Deck"
+msgstr "Crear/Editar Deck"
 
 #: Scenes/board.tscn
 msgid "DECK_SELECT"
-msgstr "Choose Deck"
+msgstr "Elegir Deck"
 
 #: Scenes/board.tscn
 msgid "UPDATE\t_DB"
-msgstr "Update DB"
+msgstr ""
 
 #: Scenes/board.tscn
 msgid "EXIT"
-msgstr "Exit Game"
+msgstr "Cerrar Juego"
 
 #: Scenes/board.tscn
 msgid "OPTION_UNREVEALED"
-msgstr "Allow Unrevealed Cards"
+msgstr "Permitir Cartas No Reveladas"
 
 #: Scenes/board.tscn
 msgid "OPTION_PROXY"
-msgstr "Allow Proxies"
+msgstr "Permitir Proxies"
 
 #: Scenes/board.tscn
 msgid "ACTION_DRAW"
-msgstr "Draw Card"
+msgstr "Robar una Carta"
 
 #: Scenes/board.tscn
 msgid "ACTION_TABS"
-msgstr "Switch Tabs"
+msgstr "Cambiar pestañas"
 
 #: Scenes/board.tscn
 msgid "ACTION_LOCK"
-msgstr "Lock Info Panel"
+msgstr "Bloquear panel de información"
 
 #: Scenes/board.tscn
 msgid "ACTION_LSTEP"
-msgstr "Last Step"
+msgstr "Último Paso"
 
 #: Scenes/board.tscn
 msgid "ACTION_NSTEP"
-msgstr "Next Step"
+msgstr "Siguiente fase"
 
 #: Scenes/board.tscn
 msgid "CONNECT_STEAM_HOSTWAIT"
-msgstr "Waiting for Players..."
+msgstr "Esperando Jugadores..."
 
 #: Scenes/board.tscn
 msgid "CONNECT_STEAM_JOINWAIT"
-msgstr "Waiting for Host..."
+msgstr "Esperando al anfitrión..."
 
 #: Scenes/board.tscn
 msgid "COSMETICS"
-msgstr "Cosmetics"
+msgstr "Cosméticos"
 
 #: Scenes/board.tscn
 msgid "COSMETICS_CANCEL"
-msgstr "Close"
+msgstr "Cerrar"
 
 #: Scenes/board.tscn
 msgid "COSMETICS_PM"
-msgstr "Load Playmat from file"
+msgstr "Cargar Playmat desde archivo"
 
 #: Scenes/board.tscn
 msgid "COSMETICS_D"
-msgstr "Load Die from file"
+msgstr "Cargar dado desde archivo"
 
 #: Scenes/board.tscn
 msgid "COSMETICS_PM_DEFAULT"
-msgstr "Playmat to Default"
+msgstr "Playmat a predeterminado"
 
 #: Scenes/board.tscn
 msgid "COSMETICS_D_DEFAULT"
-msgstr "Die to Default"
+msgstr "Dado a predeterminado"
 
 #: Scenes/board.tscn
 msgid "INFO"
-msgstr "Info"
+msgstr ""
 
 #: Scenes/board.tscn
 msgid "INFO_DLOC"
-msgstr "Deck Location"
+msgstr "Ubicación Deck"
 
 #: Scenes/board.tscn
 msgid "INFO_CANCEL"
 msgstr "Close"
 
-#: Scenes/board.tscn Scenes/deck_creation.tscn
+#: Scenes/board.tscn
+#: Scenes/deck_creation.tscn
 msgid "MENU"
-msgstr "Main Menu"
+msgstr "Menú Principal"
 
 #: Scenes/board.tscn
 msgid "MENU_PROMPT"
-msgstr "Really return to Main Menu?"
+msgstr "Volver al Menú Principal?"
 
-#: Scenes/board.tscn Scenes/side.tscn Scenes/deck_creation.tscn
+#: Scenes/board.tscn
+#: Scenes/side.tscn
+#: Scenes/deck_creation.tscn
 msgid "YES"
-msgstr "Yes"
+msgstr "Si"
 
-#: Scenes/board.tscn Scenes/side.tscn Scenes/deck_creation.tscn
+#: Scenes/board.tscn
+#: Scenes/side.tscn
+#: Scenes/deck_creation.tscn
 msgid "NO"
 msgstr "No"
 
 #: Scenes/deck_list.tscn
 msgid "DECK_LOAD"
-msgstr "Load Deck from File"
+msgstr "Cargar Deck desde archivo"
 
 #: Scenes/deck_list.tscn
 msgid "DECK_SELECT_CANCEL"
-msgstr "Cancel"
+msgstr "Cancelar"
 
 #: Scenes/sleeve_select.tscn
 msgid "SLEEVE_LOAD"
-msgstr "Load From File"
+msgstr "Cargar desde archivo"
 
 #: Scenes/sleeve_select.tscn
 msgid "SLEEVE_DEFAULT"
-msgstr "To Default"
+msgstr "Predeterminado"
 
 #: Scenes/side.tscn
 msgid "PROMPT_SUBMIT"
-msgstr "Submit"
+msgstr ""
 
 #: Scenes/side.tscn
 msgid "PROMPT_CANCEL"
-msgstr "Cancel"
+msgstr "Cancelar"
 
 #: Scenes/side.tscn
 msgid "CHOICE_FIRST"
-msgstr "Go first"
+msgstr "Ir primero"
 
 #: Scenes/side.tscn
 msgid "CHOICE_SECOND"
-msgstr "Go second"
+msgstr "Ir segundo"
 
 #: Scenes/side.tscn
 msgid "END_TURN"
-msgstr "End Turn"
+msgstr "Terminar Turno"
 
 #: Scenes/side.tscn
 msgid "START_READY"
-msgstr "Ready"
+msgstr "Listo"
 
 #: Scenes/side.tscn
 msgid "RPS_SELECT"
-msgstr "Select an option."
+msgstr "Selecciona una opción."
 
 #: Scenes/side.tscn
 msgid "RPS_ROCK"
-msgstr "Rock"
+msgstr "Piedra"
 
 #: Scenes/side.tscn
 msgid "RPS_PAPER"
-msgstr "Paper"
+msgstr "Papel"
 
 #: Scenes/side.tscn
 msgid "RPS_SCISSORS"
-msgstr "Scissors"
+msgstr "Tijeras"
 
 #: Scenes/side.tscn
 msgid "OK"
 msgstr "OK"
 
-#: Scenes/side.tscn Scripts/Multiplayer.gd
+#: Scenes/side.tscn
+#: Scripts/Multiplayer.gd
 msgid "OPPONENT"
-msgstr "Opponent"
+msgstr "Oponente"
 
 #: Scenes/side.tscn
 msgid "MULLIGAN_TEXT"
-msgstr "Viewing opponent's mulligans"
+msgstr "Viendo mulligan oponente"
 
-#: Scenes/deck_creation.tscn Scripts/deck_creation.gd
+#: Scenes/deck_creation.tscn
+#: Scripts/deck_creation.gd
 msgid "NAME"
-msgstr "Name"
+msgstr "Nombre"
 
-#: Scenes/deck_creation.tscn Scripts/deck_creation.gd
+#: Scenes/deck_creation.tscn
+#: Scripts/deck_creation.gd
 msgid "COLOR"
 msgstr "Color"
 
 #: Scenes/deck_creation.tscn
 msgid "FILTER_CLEAR"
-msgstr "Clear Filters"
+msgstr "Limpiar Filtros"
 
 #: Scenes/deck_creation.tscn
 msgid "SEARCH"
-msgstr "Search"
+msgstr "Buscar"
 
-#: Scenes/deck_creation.tscn Scripts/deck_creation.gd
+#: Scenes/deck_creation.tscn
+#: Scripts/deck_creation.gd
 msgid "LEVEL"
-msgstr "Level"
+msgstr "Nivel"
 
 #: Scenes/deck_creation.tscn
 msgid "TAG_PLURAL"
-msgstr "Tags"
+msgstr ""
 
 #: Scenes/deck_creation.tscn
 msgid "BUZZ"
-msgstr "Buzz"
+msgstr ""
 
-#: Scenes/deck_creation.tscn Scripts/deck_creation.gd
+#: Scenes/deck_creation.tscn
+#: Scripts/deck_creation.gd
 msgid "SUPPORT_TYPE"
-msgstr "Type"
+msgstr "Tipo"
 
 #: Scenes/deck_creation.tscn
 msgid "SUPPORT_LIMITED"
-msgstr "Limited"
+msgstr "Limitado"
 
 #: Scenes/deck_creation.tscn
 msgid "MAIN_DECK"
-msgstr "Main Deck"
+msgstr ""
 
 #: Scenes/deck_creation.tscn
 msgid "CHEER"
-msgstr "Cheer"
+msgstr "Ovación"
 
 #: Scenes/deck_creation.tscn
 msgid "OSHI"
-msgstr "Oshi"
+msgstr ""
 
 #: Scenes/deck_creation.tscn
 msgid "LOAD"
-msgstr "Load"
+msgstr "Cargar"
 
 #: Scenes/deck_creation.tscn
 msgid "DECK_SAVE"
-msgstr "Save"
+msgstr "Guardar"
 
 #: Scenes/deck_creation.tscn
 msgid "DEFAULT_DECK_NAME"
-msgstr "Custom Deck"
+msgstr "Deck Personalizado"
 
 #: Scenes/deck_creation.tscn
 msgid "DECK_CLEAR"
-msgstr "Clear Deck"
+msgstr "Limpiar Deck"
 
 #: Scenes/deck_creation.tscn
 msgid "DEFAULT_DECK_FILE"
-msgstr "custom_deck"
+msgstr ""
 
 #: Scenes/deck_creation.tscn
 msgid "DECK_SAVE_CANCEL"
-msgstr "Cancel"
+msgstr "Cancelar"
 
 #: Scripts/RemapButton.gd
 msgid "REMAP_WAIT"
-msgstr "... Waiting ..."
+msgstr ""
 
 #: Scripts/deck_creation.gd
 msgid "LEVEL_ANY"
-msgstr "Any Level"
+msgstr "Cualquier Nivel"
 
 #: Scripts/deck_creation.gd
 msgid "NAME_ANY"
-msgstr "Any Name"
+msgstr "Cualquier Nombre"
 
 #: Scripts/deck_creation.gd
 msgid "COLOR_ANY"
-msgstr "Any Color"
+msgstr "Cualquier Color"
 
 #: Scripts/deck_creation.gd
 msgid "SUPPORT_TYPE_ANY"
-msgstr "Any Type"
+msgstr "Cualquier Tipo"
 
 #: Scripts/deck_creation.gd
 msgid "DECKERROR_NOOSHI"
-msgstr "No oshi selected."
+msgstr "No oshi seleccionada."
 
 #: Scripts/deck_creation.gd
 msgid "DECKERROR_FAKEOSHI"
-msgstr "{cardNum} is not an oshi."
+msgstr ""
 
 #: Scripts/deck_creation.gd
 msgid "DECKERROR_UNDERDECK"
-msgstr "Main deck has too few cards."
+msgstr "Main deck tiene muy pocas cartas."
 
 #: Scripts/deck_creation.gd
 msgid "DECKERROR_OVERDECK"
-msgstr "Main deck has too many cards."
+msgstr "El Main Deck tiene demasiadas cartas."
 
 #: Scripts/deck_creation.gd
 msgid "DECKERROR_UNDERCHEER"
-msgstr "Cheer deck has too few cards."
+msgstr "Deck de Ovaciones tiene muy pocas cartas."
 
 #: Scripts/deck_creation.gd
 msgid "DECKERROR_OVERCHEER"
-msgstr "Cheer deck has too many cards."
+msgstr "El Deck de Ovaciones tiene demasiadas cartas."
 
 #: Scripts/deck_creation.gd
 msgid "DECKERROR_NEGATIVEAMOUNT"
-msgstr "There is a negative amount of {cardNum}"
+msgstr ""
 
 #: Scripts/deck_creation.gd
 msgid "DECKERROR_FAKEMAIN"
-msgstr "{cardNum} does not go in the main deck."
+msgstr ""
 
 #: Scripts/deck_creation.gd
 msgid "DECKERROR_NODEBUTS"
-msgstr "No debuts selected."
+msgstr "No debuts seleccionados."
 
 #: Scripts/deck_creation.gd
 msgid "DECKERROR_FAKECHEER"
-msgstr "{cardNum} is not a cheer card."
+msgstr ""
 
 #: Scripts/deck_creation.gd
 msgid "DECKERROR_OVERAMOUNT"
-msgstr "Too many copies of {cardNum}"
+msgstr "Demasiadas copias de {cardNum}"
 
 #: Scripts/deck_creation.gd
 msgid "LEVEL_DEBUT"
-msgstr "Debut"
+msgstr ""
 
 #: Scripts/deck_creation.gd
 msgid "LEVEL_1"
-msgstr "1st"
+msgstr ""
 
 #: Scripts/deck_creation.gd
 msgid "LEVEL_2"
-msgstr "2nd"
+msgstr ""
 
 #: Scripts/deck_creation.gd
 msgid "LEVEL_SPOT"
-msgstr "SPOT"
+msgstr ""
 
 #: Scripts/deck_creation.gd
 msgid "DECK_OVERWRITE"
-msgstr "Overwrite {fileName}"
+msgstr "Sobreescribir {fileName}"
+
+#: Scripts/deck_creation.gd
+#: Scripts/side.gd
+#: Scripts/Multiplayer.gd
+msgid ""
+msgstr ""
+""
 
 #: Scripts/side.gd
 msgid "DECK"
@@ -435,23 +449,23 @@ msgstr "Deck"
 
 #: Scripts/side.gd
 msgid "CHEERDECK"
-msgstr "Cheer Deck"
+msgstr "Deck de Ovaciones"
 
 #: Scripts/side.gd
 msgid "ARCHIVE"
-msgstr "Archive"
+msgstr "Archivo"
 
 #: Scripts/side.gd
 msgid "HOLOPOWER"
-msgstr "Holopower"
+msgstr ""
 
 #: Scripts/side.gd
 msgid "RPS_WAIT"
-msgstr "Waiting for opponent..."
+msgstr "Esperando al Oponente..."
 
 #: Scripts/side.gd
 msgid "RPS_TIED"
-msgstr "Tied. Pick again."
+msgstr "Empate selecciona de nuevo."
 
 #: Scripts/side.gd
 msgid "MULLIGAN_QUESTION"
@@ -459,95 +473,92 @@ msgstr "Mulligan?"
 
 #: Scripts/side.gd
 msgid "MESSAGE_MULLIGAN"
-msgstr "{person} mulliganed"
+msgstr ""
 
 #: Scripts/side.gd
 msgid "LOSS"
-msgstr "You Lose!"
+msgstr "Has Perdido!"
 
 #: Scripts/side.gd
 msgid "MULLIGAN_FORCED"
-msgstr ""
-"No debuts found.\n"
-"You must mulligan."
+msgstr "No debuts encontrados.\n"
+"Debes hacer mulligan."
 
 #: Scripts/side.gd
 msgid "MULLIGAN_WAIT"
-msgstr "Waiting for opponent..."
+msgstr "Esperando al oponente..."
 
 #: Scripts/side.gd
 msgid "READY_WAIT"
-msgstr "Waiting"
+msgstr "Esperando"
 
 #: Scripts/side.gd
 msgid "MESSAGE_DRAW"
-msgstr "{person} drew a card"
+msgstr ""
 
 #: Scripts/side.gd
 msgid "MESSAGE_DRAWX"
-msgstr "{person} drew {amount} cards"
+msgstr ""
 
 #: Scripts/side.gd
 msgid "MESSAGE_MILL"
-msgstr "{person} sent a card from {from} to {to}"
+msgstr ""
 
 #: Scripts/side.gd
 msgid "MESSAGE_MILLX"
-msgstr "{person} sent {amount} cards from {from} to {to}"
+msgstr ""
 
 #: Scripts/side.gd
 msgid "MESSAGE_BLOOM"
 msgstr ""
-"{person} bloomed ({fromZone}) {fromName} into {toName} ({fromLevel} to "
-"{toLevel})"
 
 #: Scripts/side.gd
 msgid "CARD_HOLOMEM_LOOK_ATTACHED"
-msgstr "Look at attached"
+msgstr "Mirar cartas acopladas"
 
 #: Scripts/side.gd
 msgid "CARD_HOLOMEM_LOOK_PAST"
-msgstr "Look at past blooms"
+msgstr "Mirar blooms anteriores"
 
 #: Scripts/side.gd
 msgid "CARD_HOLOMEM_PLAY_CENTERHIDDEN"
-msgstr "Play (Hidden) to center"
+msgstr "Jugar (Oculto) al centro"
 
 #: Scripts/side.gd
 msgid "CARD_HOLOMEM_PLAY_BACKHIDDEN"
-msgstr "Play (Hidden) to back"
+msgstr "Jugar (Oculto) atrás"
 
 #: Scripts/side.gd
 msgid "CARD_HOLOMEM_PLAY"
-msgstr "Play"
+msgstr "Jugar"
 
 #: Scripts/side.gd
 msgid "CARD_HOLOMEM_BLOOM"
-msgstr "Bloom"
+msgstr "Florecer"
 
 #: Scripts/side.gd
 msgid "CARD_HOLOMEM_BLOOM_SKIP"
-msgstr "Skip Bloom"
+msgstr "Saltar Florecimiento"
 
 #: Scripts/side.gd
 msgid "CARD_HOLOMEM_BLOOM_FAST"
-msgstr "Instant Bloom"
+msgstr "Florecer Instantáneo"
 
 #: Scripts/side.gd
 msgid "CARD_HOLOMEM_UNREST"
-msgstr "Unrest"
+msgstr "Enderezar"
 
 #: Scripts/side.gd
 msgid "CARD_HOLOMEM_REST"
-msgstr "Rest"
+msgstr "Descansar"
 
 #: Scripts/side.gd
 msgid "CARD_HOLOMEM_MOVE_CENTER"
-msgstr "Move to center"
+msgstr "Mover al centro"
 
 #: Scripts/side.gd
 msgid "CARD_HOLOMEM_MOVE_BACK"
-msgstr "Move to back"
+msgstr "Mover atrás"
 
 #: Scripts/side.gd
 msgid "CARD_HOLOMEM_COLLAB"
@@ -555,55 +566,55 @@ msgstr "Collab"
 
 #: Scripts/side.gd
 msgid "CARD_HOLOMEM_BATON"
-msgstr "Baton Pass"
+msgstr "Relevo"
 
 #: Scripts/side.gd
 msgid "CARD_HOLOMEM_DAMAGE"
-msgstr "Add damage"
+msgstr "Añadir daño"
 
 #: Scripts/side.gd
 msgid "CARD_HOLOMEM_HEAL"
-msgstr "Heal"
+msgstr "Curar"
 
 #: Scripts/side.gd
 msgid "CARD_HOLOMEM_EXTRAHP"
-msgstr "Add extra HP"
+msgstr "Añadir HP extra"
 
 #: Scripts/side.gd
 msgid "CARD_HOLOMEM_REMOVEEXTRAHP"
-msgstr "Remove extra HP"
+msgstr "Remover HP extra"
 
 #: Scripts/side.gd
 msgid "CARD_HOLOMEM_UNBLOOM"
-msgstr "Unbloom"
+msgstr "Desflorecer"
 
 #: Scripts/side.gd
 msgid "CARD_SUPPORT_ATTACH"
-msgstr "Attach"
+msgstr "Acoplar"
 
 #: Scripts/side.gd
 msgid "CARD_SUPPORT_PLAY"
-msgstr "Play"
+msgstr "Jugar"
 
 #: Scripts/side.gd
 msgid "CARD_SUPPORT_ARCHIVE"
-msgstr "Archive"
+msgstr "Archivar"
 
 #: Scripts/side.gd
 msgid "CARD_CHEER_LIFE_REVEAL"
-msgstr "Reveal and attach"
+msgstr "Revelar y acoplar"
 
 #: Scripts/side.gd
 msgid "CARD_HAND_TOPDECK"
-msgstr "Send to top of deck"
+msgstr "Enviar al tope del deck"
 
 #: Scripts/side.gd
 msgid "CARD_HAND_BOTTOMDECK"
-msgstr "Send to bottom of deck"
+msgstr "Enviar al fondo del deck"
 
 #: Scripts/side.gd
 msgid "CARD_HAND_ARCHIVE"
-msgstr "Archive"
+msgstr "Archivar"
 
 #: Scripts/side.gd
 msgid "CARD_HAND_HOLOPOWER"
@@ -611,47 +622,47 @@ msgstr "Holopower"
 
 #: Scripts/side.gd
 msgid "CARD_STAGE_ARCHIVE"
-msgstr "Archive"
+msgstr "Archivar"
 
 #: Scripts/side.gd
 msgid "CARD_STAGE_HAND"
-msgstr "Add to hand"
+msgstr "Añadir a tu mano"
 
 #: Scripts/side.gd
 msgid "CARD_HOLOMEM_MOVE_COLLAB"
-msgstr "Move to collab zone"
+msgstr "Mover a zona collab"
 
 #: Scripts/side.gd
 msgid "CARD_HOLOMEM_SWITCH"
-msgstr "Switch to back"
+msgstr "Cambiar atrás"
 
 #: Scripts/side.gd
 msgid "CARD_REVEALED_HAND"
-msgstr "Add to hand"
+msgstr "Añadir a tu mano"
 
 #: Scripts/side.gd
 msgid "CARD_REVEALED_ATTACH"
-msgstr "Attach"
+msgstr "Acoplar"
 
 #: Scripts/side.gd
 msgid "CARD_REVEALED_TOPDECK"
-msgstr "Send to top of deck"
+msgstr "Enviar al tope del deck"
 
 #: Scripts/side.gd
 msgid "CARD_REVEALED_BOTTOMDECK"
-msgstr "Send to bottom of deck"
+msgstr "Enviar al fondo del deck"
 
 #: Scripts/side.gd
 msgid "CARD_REVEALED_ARCHIVE"
-msgstr "Archive"
+msgstr "Archivar"
 
 #: Scripts/side.gd
 msgid "DECK_DRAW"
-msgstr "Draw"
+msgstr "Robar"
 
 #: Scripts/side.gd
 msgid "DECK_DRAWX"
-msgstr "Draw X"
+msgstr "Robar X"
 
 #: Scripts/side.gd
 msgid "DECK_ARCHIVE"
@@ -667,123 +678,123 @@ msgstr "Holopower"
 
 #: Scripts/side.gd
 msgid "DECK_REVEAL"
-msgstr "Reveal top card"
+msgstr "Revelar tope del deck"
 
 #: Scripts/side.gd
 msgid "DECK_LOOKX"
-msgstr "Look at X"
+msgstr "Mirar X cartas"
 
 #: Scripts/side.gd
 msgid "DECK_SEARCH"
-msgstr "Search"
+msgstr "Buscar"
 
 #: Scripts/side.gd
 msgid "DECK_SHUFFLE"
-msgstr "Shuffle"
+msgstr "Barajar"
 
 #: Scripts/side.gd
 msgid "DECK_MULLIGAN"
-msgstr "Shuffle hand into deck"
+msgstr "Barajar mano al deck"
 
 #: Scripts/side.gd
 msgid "DECK_MULLIGAN_UNDO"
-msgstr "Undo shuffle hand into deck"
+msgstr "Deshacer barajar mano al deck"
 
 #: Scripts/side.gd
 msgid "CHEERDECK_REVEAL"
-msgstr "Reveal and attach"
+msgstr "Revelar y acoplar"
 
 #: Scripts/side.gd
 msgid "CHEERDECK_SEARCH"
-msgstr "Search"
+msgstr "Buscar"
 
 #: Scripts/side.gd
 msgid "CHEERDECK_SHUFFLE"
-msgstr "Shuffle"
+msgstr "Barajar"
 
 #: Scripts/side.gd
 msgid "ARCHIVE_SEARCH"
-msgstr "Search"
+msgstr "Buscar"
 
 #: Scripts/side.gd
 msgid "HOLOPOWER_ARCHIVE"
-msgstr "Archive"
+msgstr "Archivar"
 
 #: Scripts/side.gd
 msgid "HOLOPOWER_ARCHIVEX"
-msgstr "Archive X"
+msgstr "Archivar X"
 
 #: Scripts/side.gd
 msgid "HOLOPOWER_DECK"
-msgstr "To top of deck"
+msgstr "Al tope del deck"
 
 #: Scripts/side.gd
 msgid "HOLOPOWER_SEARCH"
-msgstr "Search"
+msgstr "Buscar"
 
 #: Scripts/side.gd
 msgid "HOLOPOWER_SHUFFLE"
-msgstr "Shuffle"
+msgstr "Barajar"
 
 #: Scripts/side.gd
 msgid "LIST_DECK_HOLOMEM_PLAY"
-msgstr "Play"
+msgstr "Jugar"
 
 #: Scripts/side.gd
 msgid "LIST_ARCHIVE_HOLOMEM_PLAY"
-msgstr "Play"
+msgstr "Jugar"
 
 #: Scripts/side.gd
 msgid "LIST_DECK_HOLOMEM_BLOOM"
-msgstr "Bloom"
+msgstr "Florecer"
 
 #: Scripts/side.gd
 msgid "LIST_ARCHIVE_HOLOMEM_BLOOM"
-msgstr "Bloom"
+msgstr "Florecer"
 
 #: Scripts/side.gd
 msgid "LIST_CHEERDECK_CHEER_ATTACH"
-msgstr "Attach"
+msgstr "Acoplar"
 
 #: Scripts/side.gd
 msgid "LIST_ARCHIVE_CHEER_ATTACH"
-msgstr "Attach"
+msgstr "Acoplar"
 
 #: Scripts/side.gd
 msgid "LIST_ATTACHED_CHEER_ATTACH"
-msgstr "Reattach"
+msgstr "Re-acoplar"
 
 #: Scripts/side.gd
 msgid "LIST_CHEER_LIFE"
-msgstr "To Life"
+msgstr "A Vida"
 
 #: Scripts/side.gd
 msgid "LIST_CARD_REVEAL"
-msgstr "Reveal"
+msgstr "Revelar"
 
 #: Scripts/side.gd
 msgid "LIST_CARD_HAND"
-msgstr "Add to hand"
+msgstr "Añadir a tu mano"
 
 #: Scripts/side.gd
 msgid "LIST_CARD_TOPDECK"
-msgstr "Send to top of deck"
+msgstr "Enviar al top del Deck"
 
 #: Scripts/side.gd
 msgid "LIST_CARD_BOTTOMDECK"
-msgstr "Send to bottom of deck"
+msgstr "Enviar al fondo del deck"
 
 #: Scripts/side.gd
 msgid "LIST_CARD_TOPCHEERDECK"
-msgstr "Send to top of cheer deck"
+msgstr "Enviar al tope del Deck de Ovaciones"
 
 #: Scripts/side.gd
 msgid "LIST_CARD_BOTTOMCHEERDECK"
-msgstr "Send to bottom of cheer deck"
+msgstr "Enviar al fondo del deck de ovaciones"
 
 #: Scripts/side.gd
 msgid "LIST_CARD_ARCHIVE"
-msgstr "Archive"
+msgstr "Archivar"
 
 #: Scripts/side.gd
 msgid "LIST_CARD_HOLOPOWER"
@@ -791,385 +802,376 @@ msgstr "Holopower"
 
 #: Scripts/side.gd
 msgid "MESSAGE_STAGE_ARCHIVE"
-msgstr "{person} archived ({fromZone}) {fromName}"
+msgstr ""
 
 #: Scripts/side.gd
 msgid "MESSAGE_STAGE_HAND"
-msgstr "{person} picked up ({fromZone}) {fromName}"
+msgstr ""
 
 #: Scripts/side.gd
 msgid "MESSAGE_STAGE_CENTER"
-msgstr "{person} moved ({fromZone}) {fromName} to center"
+msgstr ""
 
 #: Scripts/side.gd
 msgid "MESSAGE_STAGE_COLLAB"
-msgstr "{person} collabed with ({fromZone}) {fromName}"
+msgstr ""
 
 #: Scripts/side.gd
 msgid "MESSAGE_STAGE_MOVECOLLAB"
-msgstr "{person} moved ({fromZone}) {fromName} to collab zone"
+msgstr ""
 
 #: Scripts/side.gd
 msgid "PROMPT_DAMAGE"
-msgstr "Add X Damage"
+msgstr "Añade X Daño"
 
 #: Scripts/side.gd
 msgid "PROMPT_HEAL"
-msgstr "Heal X"
+msgstr "Cura X"
 
 #: Scripts/side.gd
 msgid "PROMPT_EXTRAHP"
-msgstr "Add X HP"
+msgstr "Añade X HP"
 
 #: Scripts/side.gd
 msgid "PROMPT_REMOVEEXTRAHP"
-msgstr "Remove X HP"
+msgstr "Remover X HP"
 
 #: Scripts/side.gd
 msgid "MESSAGE_STAGE_UNBLOOM"
-msgstr "{person} unbloomed ({fromZone}) {fromName}, reverting to {toName}"
+msgstr ""
 
 #: Scripts/side.gd
 msgid "MESSAGE_REVEALED_HAND"
-msgstr "{person} added {cardName} to hand"
+msgstr ""
 
 #: Scripts/side.gd
 msgid "MESSAGE_REVEALED_TOPDECK"
-msgstr "{person} returned {cardName} to the top of deck"
+msgstr ""
 
 #: Scripts/side.gd
 msgid "MESSAGE_REVEALED_BOTTOMDECK"
-msgstr "{person} sent {cardName} to the bottom of deck"
+msgstr ""
 
 #: Scripts/side.gd
 msgid "MESSAGE_REVEALED_ARCHIVE"
-msgstr "{person} archived {cardName}"
+msgstr ""
 
 #: Scripts/side.gd
 msgid "MESSAGE_OSHISKILL_SP"
-msgstr "{person} used SP Oshi Skill \"{skillName}\""
+msgstr ""
 
 #: Scripts/side.gd
 msgid "MESSAGE_OSHISKILL"
-msgstr "{person} used Oshi Skill \"{skillName}\""
+msgstr ""
 
 #: Scripts/side.gd
 msgid "PROMPT_OSHICOST"
-msgstr "Archive X Cards"
+msgstr "Archivar X Cartas"
 
 #: Scripts/side.gd
 msgid "MESSAGE_HAND_TOPDECK"
-msgstr "{person} returned a card to the top of the deck from hand"
+msgstr ""
 
 #: Scripts/side.gd
 msgid "MESSAGE_HAND_BOTTOMDECK"
-msgstr "{person} sent a card to the bottom of the deck from hand"
+msgstr ""
 
 #: Scripts/side.gd
 msgid "MESSAGE_HAND_ARCHIVE"
-msgstr "{person} archived {cardName} from hand"
+msgstr ""
 
 #: Scripts/side.gd
 msgid "MESSAGE_HAND_HOLOPOWER"
-msgstr "{person} put a card in Holopower from hand"
+msgstr ""
 
 #: Scripts/side.gd
 msgid "MESSAGE_HAND_SUPPORT_PLAY"
-msgstr "{person} played {cardName}"
+msgstr ""
 
 #: Scripts/side.gd
 msgid "PROMPT_DRAW"
-msgstr "Draw X Cards"
+msgstr "Roba X Cartas"
 
 #: Scripts/side.gd
 msgid "PROMPT_DECK_ARCHIVE"
-msgstr "Mill X Cards"
+msgstr "Mill X Cartas"
 
 #: Scripts/side.gd
 msgid "MESSAGE_FUDA_REVEAL"
-msgstr "{person} revealed {cardName} from {fromFuda}"
+msgstr ""
 
 #: Scripts/side.gd
 msgid "MESSAGE_DECK_MULLIGAN"
-msgstr "{person} shuffled hand into deck"
+msgstr ""
 
 #: Scripts/side.gd
 msgid "MESSAGE_DECK_UNDOMULLIGAN"
-msgstr "{person} got hand back from deck. Oops."
+msgstr ""
 
 #: Scripts/side.gd
 msgid "PROMPT_LOOKATX"
-msgstr "Look at X:"
+msgstr "Mirar X cartas:"
 
 #: Scripts/side.gd
 msgid "MESSAGE_DECK_SEARCH"
-msgstr "{person} started searching deck"
+msgstr ""
 
 #: Scripts/side.gd
 msgid "MESSAGE_DECK_SHUFFLE"
-msgstr "{person} shuffled deck"
+msgstr ""
 
 #: Scripts/side.gd
 msgid "MESSAGE_CHEERDECK_SEARCH"
-msgstr "{person} started searching cheer deck"
+msgstr ""
 
 #: Scripts/side.gd
 msgid "MESSAGE_CHEERDECK_SHUFFLE"
-msgstr "{person} shuffled cheer deck"
+msgstr ""
 
 #: Scripts/side.gd
 msgid "PROMPT_HOLOPOWER_ARCHIVE"
-msgstr "Archive X Cards"
+msgstr "Archivar X Cartas"
 
 #: Scripts/side.gd
 msgid "MESSAGE_HOLOPOWER_SEARCH"
-msgstr "{person} started searching holopower"
+msgstr ""
 
 #: Scripts/side.gd
 msgid "MESSAGE_HOLOPOWER_SHUFFLE"
-msgstr "{person} shuffled holopower"
+msgstr ""
 
 #: Scripts/side.gd
 msgid "MESSAGE_FUDA_LIFE"
-msgstr "{person} added a card to life from {fromFuda}"
+msgstr ""
 
 #: Scripts/side.gd
 msgid "MESSAGE_ATTACHED_LIFE"
-msgstr "{person} added {cardName} to life from ({fromZone}) {fromName}"
+msgstr ""
 
 #: Scripts/side.gd
 msgid "MESSAGE_ARCHIVE_HAND"
-msgstr "{person} added {cardName} to hand from archive"
+msgstr ""
 
 #: Scripts/side.gd
 msgid "MESSAGE_FUDA_HAND"
-msgstr "{person} added a card to hand from {fromFuda}"
+msgstr ""
 
 #: Scripts/side.gd
 msgid "MESSAGE_ATTACHED_HAND"
-msgstr "{person} added {cardName} to hand from ({fromZone}) {fromName}"
+msgstr ""
 
 #: Scripts/side.gd
 msgid "MESSAGE_ARCHIVE_TOPDECK"
-msgstr "{person} put {cardName} on top of deck from archive"
+msgstr ""
 
 #: Scripts/side.gd
 msgid "MESSAGE_DECK_TOPDECK"
-msgstr "{person} moved a card to the top of deck"
+msgstr ""
 
 #: Scripts/side.gd
 msgid "MESSAGE_FUDA_TOPDECK"
-msgstr "{person} put a card on the top of deck from {fromFuda}"
+msgstr ""
 
 #: Scripts/side.gd
 msgid "MESSAGE_ATTACHED_TOPDECK"
-msgstr "{person} put {cardName} on top of deck from ({fromZone}) {fromName}"
+msgstr ""
 
 #: Scripts/side.gd
 msgid "MESSAGE_ARCHIVE_BOTTOMDECK"
-msgstr "{person} sent {cardName} to the bottom of the deck from archive"
+msgstr ""
 
 #: Scripts/side.gd
 msgid "MESSAGE_DECK_BOTTOMDECK"
-msgstr "{person} moved a card to bottom of deck"
+msgstr ""
 
 #: Scripts/side.gd
 msgid "MESSAGE_FUDA_BOTTOMDECK"
-msgstr "{person} sent a card to the bottom of the deck from {fromFuda}"
+msgstr ""
 
 #: Scripts/side.gd
 msgid "MESSAGE_ATTACHED_BOTTOMDECK"
-msgstr "{person} put {cardName} on bottom of deck from ({fromZone}) {fromName}"
+msgstr ""
 
 #: Scripts/side.gd
 msgid "MESSAGE_ARCHIVE_TOPCHEERDECK"
-msgstr "{person} put {cardName} on top of cheer deck from archive"
+msgstr ""
 
 #: Scripts/side.gd
 msgid "MESSAGE_CHEERDECK_TOPCHEERDECK"
-msgstr "{person} moved a card to the top of cheer deck"
+msgstr ""
 
 #: Scripts/side.gd
 msgid "MESSAGE_FUDA_TOPCHEERDECK"
-msgstr "{person} put a card on top of cheer deck from {fromFuda}"
+msgstr ""
 
 #: Scripts/side.gd
 msgid "MESSAGE_ATTACHED_TOPCHEERDECK"
 msgstr ""
-"{person} put {cardName} on top of cheer deck from ({fromZone}) {fromName}"
 
 #: Scripts/side.gd
 msgid "MESSAGE_ARCHIVE_BOTTOMCHEERDECK"
-msgstr "{person} sent {cardName} to bottom of cheer deck from archive"
+msgstr ""
 
 #: Scripts/side.gd
 msgid "MESSAGE_CHEERDECK_BOTTOMCHEERDECK"
-msgstr "{person} moved a card to the bottom of cheer deck"
+msgstr ""
 
 #: Scripts/side.gd
 msgid "MESSAGE_FUDA_BOTTOMCHEERDECK"
-msgstr "{person} sent a card to bottom of cheer deck from {fromFuda}"
+msgstr ""
 
 #: Scripts/side.gd
 msgid "MESSAGE_ATTACHED_BOTTOMCHEERDECK"
 msgstr ""
-"{person} sent {cardName} to bottom of cheer deck from ({fromZone}) {fromName}"
 
 #: Scripts/side.gd
 msgid "MESSAGE_FUDA_ARCHIVE"
-msgstr "{person} archived {cardName} from {fromFuda}"
+msgstr ""
 
 #: Scripts/side.gd
 msgid "MESSAGE_ATTACHED_ARCHIVE"
-msgstr "{person} archived {cardName} from ({fromZone}) {fromName}"
+msgstr ""
 
 #: Scripts/side.gd
 msgid "MESSAGE_ARCHIVE_HOLOPOWER"
-msgstr "{person} put {cardName} in Holopower from archive"
+msgstr ""
 
 #: Scripts/side.gd
 msgid "MESSAGE_FUDA_HOLOPOWER"
-msgstr "{person} put a card in Holopower from {fromFuda}"
+msgstr ""
 
 #: Scripts/side.gd
 msgid "MESSAGE_ATTACHED_HOLOPOWER"
-msgstr "{person} put {cardName} in Holopower from ({fromZone}) {fromName}"
+msgstr ""
 
 #: Scripts/side.gd
 msgid "MESSAGE_ARTS_DAMAGE"
 msgstr ""
-"{person} had ({fromZone}) {fromName} perform \"{artName}\", dealing {damage} "
-"damage to ({toZone}) {toName}"
 
 #: Scripts/side.gd
 msgid "MESSAGE_DECK_LOOKATX"
-msgstr "{person} started looking at the top {amount} cards of deck"
+msgstr ""
 
 #: Scripts/side.gd
 msgid "MESSAGE_CARD_BACK"
-msgstr "{person} moved ({fromZone}) {fromName} to back"
+msgstr ""
 
 #: Scripts/side.gd
 msgid "MESSAGE_CARD_BATONPASS"
 msgstr ""
-"{person} baton passed, switching ({fromZone}) {fromName} with ({toZone}) "
-"{toName}"
 
 #: Scripts/side.gd
 msgid "MESSAGE_CARD_SWITCH"
-msgstr "{person} switched ({fromZone}) {fromName} with ({toZone}) {toName}"
+msgstr ""
 
 #: Scripts/side.gd
 msgid "MESSAGE_SUPPORT_ATTACH"
-msgstr "{person} attached {attachName} to ({toZone}) {toName}"
+msgstr ""
 
 #: Scripts/side.gd
 msgid "MESSAGE_CHEER_ATTACH"
-msgstr "{person} attached {attachName} to ({toZone}) {toName}"
+msgstr ""
 
 #: Scripts/side.gd
 msgid "PROMPT_ART_DAMAGE"
-msgstr "Deal X Damage"
+msgstr "Inflige X Daño"
 
 #: Scripts/side.gd
 msgid "MESSAGE_HOLOMEM_PLAY"
-msgstr "{person} played {cardName} to back"
+msgstr ""
 
 #: Scripts/side.gd
 msgid "MESSAGE_DECK_HOLOMEM_PLAY"
-msgstr "{person} played {cardName} to back from deck"
+msgstr ""
 
 #: Scripts/side.gd
 msgid "MESSAGE_CHEERDECK_CHEER_ATTACH"
-msgstr "{person} attached {attachName} to ({toZone}) {toName} from cheer deck"
+msgstr ""
 
 #: Scripts/side.gd
 msgid "MESSAGE_ARCHIVE_HOLOMEM_PLAY"
-msgstr "{person} played {cardName} to back from archive"
+msgstr ""
 
 #: Scripts/side.gd
 msgid "MESSAGE_ARCHIVE_CHEER_ATTACH"
-msgstr "{person} attached {attachName} to ({toZone}) {toName} from archive"
+msgstr ""
 
 #: Scripts/side.gd
 msgid "MESSAGE_ATTACHED_CHEER_ATTACH"
 msgstr ""
-"{person} attached {attachName} to ({toZone}) {toName} from ({fromZone}) "
-"{fromName}"
 
 #: Scripts/side.gd
 msgid "TURN_SECOND"
-msgstr "Opponent Going Second"
+msgstr "Oponente empieza Segundo"
 
 #: Scripts/side.gd
 msgid "TURN_FIRST"
-msgstr "Opponent Going First"
+msgstr "Oponente empieza Primero"
 
 #: Scripts/side.gd
 msgid "MESSAGE_ENDTURN"
-msgstr "{person} ended turn"
+msgstr ""
 
 #: Scripts/side.gd
 msgid "MESSAGE_DIERESULT"
-msgstr "{person} rolled a {amount}"
+msgstr ""
 
 #: Scripts/Multiplayer.gd
 msgid "DOWNLOAD_ITER"
-msgstr "Checking for db update"
+msgstr ""
 
 #: Scripts/Multiplayer.gd
 msgid "DOWNLOAD_ITER_AGAIN"
-msgstr "Something went wrong. Trying again..."
+msgstr ""
 
 #: Scripts/Multiplayer.gd
 msgid "DOWNLOADING"
-msgstr "Downloading db..."
+msgstr "Descargando db..."
 
 #: Scripts/Multiplayer.gd
 msgid "DOWNLOAD_ERROR"
-msgstr "Download Failed. Trying again..."
+msgstr ""
 
 #: Scripts/Multiplayer.gd
 msgid "VERSION_MISMATCH"
-msgstr "(Version Mismatch)"
+msgstr ""
 
 #: Scripts/Multiplayer.gd
 msgid "YOU"
-msgstr "You"
+msgstr ""
 
 #: Scripts/card.gd
 msgid "COLORLESS"
-msgstr "Colorless"
+msgstr ""
 
 #: Scripts/card.gd
 msgid "NOBODY"
-msgstr "Nobody?"
+msgstr ""
 
 #: Scripts/card.gd
 msgid "NAMESEP"
-msgstr "/"
+msgstr ""
 
 #: Scripts/card.gd
 msgid "COLORSEP"
-msgstr "/"
+msgstr ""
 
 #: Scripts/card.gd
 msgid "NAME_BUZZ"
-msgstr "buzz!"
+msgstr ""
 
 #: Scripts/card.gd
 msgid "INFO_OSHI"
-msgstr ""
-"{colorText} Oshi Holomem\n"
-"Life: {life}{tagsText}"
+msgstr "{colorText} Miembro Oshi \n"
+"Vida: {life}{tagsText}"
 
 #: Scripts/card.gd
 msgid "INFO_OSHI_SPSKILL"
-msgstr "SP Oshi Skill Holopower -{costText}   \"{nameText}\""
+msgstr "Habilidad SP Oshi  Holopower -{costText}   \"{nameText}\""
 
 #: Scripts/card.gd
 msgid "INFO_OSHI_SKILL"
-msgstr "Oshi Skill Holopower -{costText}   \"{nameText}\""
+msgstr "Habilidad Oshi  Holopower -{costText}   \"{nameText}\""
 
 #: Scripts/card.gd
 msgid "INFO_SPOT"
@@ -1193,18 +1195,17 @@ msgstr "Buzz "
 
 #: Scripts/card.gd
 msgid "INFO_HOLOMEM_1"
-msgstr ""
-"{colorText} {levelText} {buzzText}Holomem\n"
+msgstr "{colorText} {levelText} {buzzText}Miembro\n"
 "HP: {hpText}\n"
 "Tags: {tagsText}"
 
 #: Scripts/card.gd
 msgid "INFO_NOBATONPASSCOST"
-msgstr "Free"
+msgstr "Gratis"
 
 #: Scripts/card.gd
 msgid "INFO_HOLOMEM_2"
-msgstr "Baton Pass: {costText}"
+msgstr "Relevo: {costText}"
 
 #: Scripts/card.gd
 msgid "INFO_SUPPORT"
@@ -1212,4 +1213,5 @@ msgstr "{supportText} ({typeText}){tagsText}"
 
 #: Scripts/card.gd
 msgid "INFO_LIMITED"
-msgstr "LIMITED: Only one can be used per turn."
+msgstr "LIMITADO: Solo uno puede ser usado por turno."
+
