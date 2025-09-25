@@ -2,13 +2,13 @@
 
 importer="font_data_dynamic"
 type="FontFile"
-uid="uid://d1prs0o0rldol"
-path="res://.godot/imported/TCG2SAB002.ttf-ebe30b60e4880e5e91c2dc47c1bfd51e.fontdata"
+uid="uid://umgiltdw4431"
+path="res://.godot/imported/SourceHanSansTC-Bold.otf-bfc0dfd229ef01323c0a17192ade1942.fontdata"
 
 [deps]
 
-source_file="res://CyberAssets/Main Menu Assets/TCG2SAB002.ttf"
-dest_files=["res://.godot/imported/TCG2SAB002.ttf-ebe30b60e4880e5e91c2dc47c1bfd51e.fontdata"]
+source_file="res://CyberAssets/Main Menu Assets/SourceHanSansTC-Bold.otf"
+dest_files=["res://.godot/imported/SourceHanSansTC-Bold.otf-bfc0dfd229ef01323c0a17192ade1942.fontdata"]
 
 [params]
 
