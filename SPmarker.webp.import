@@ -2,28 +2,26 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cxhb21jecugn"
-path.s3tc="res://.godot/imported/SPup.png-5d5a4b8476e3334c91a5587d4ef1ff9e.s3tc.ctex"
-path.etc2="res://.godot/imported/SPup.png-5d5a4b8476e3334c91a5587d4ef1ff9e.etc2.ctex"
+uid="uid://dbtec4tw8uhta"
+path="res://.godot/imported/SPmarker.webp-a3e7001ff7e61b45a570b56d60c29c45.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc", "etc2_astc"],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
-source_file="res://SPup.png"
-dest_files=["res://.godot/imported/SPup.png-5d5a4b8476e3334c91a5587d4ef1ff9e.s3tc.ctex", "res://.godot/imported/SPup.png-5d5a4b8476e3334c91a5587d4ef1ff9e.etc2.ctex"]
+source_file="res://SPmarker.webp"
+dest_files=["res://.godot/imported/SPmarker.webp-a3e7001ff7e61b45a570b56d60c29c45.ctex"]
 
 [params]
 
-compress/mode=2
-compress/high_quality=false
+compress/mode=1
+compress/high_quality=true
 compress/lossy_quality=0.7
 compress/uastc_level=0
 compress/rdo_quality_loss=0.0
 compress/hdr_compression=1
-compress/normal_map=0
+compress/normal_map=2
 compress/channel_pack=0
 mipmaps/generate=false
 mipmaps/limit=-1
