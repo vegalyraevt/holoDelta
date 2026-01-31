@@ -30,6 +30,10 @@ var spectatedSides = {}
 var inGame = false
 var rps = false
 
+# BGM playlist support (client-side only)
+var _bgm_playlist := []
+var _bgm_index := 0
+
 # Lobby code only supports a-z, 0-9.
 var valid_lobby_code_regex_pattern := "[^a-z0-9]"
 var lobby_code_regex := RegEx.new()
@@ -132,6 +136,9 @@ func _ready():
 		AudioServer.set_bus_mute(Settings.bgm_bus_index, true)
 	else:
 		AudioServer.set_bus_mute(Settings.bgm_bus_index, false)
+
+	# Initialize BGM playlist (client-side: user://Music and res://Music)
+	_setup_bgm_playlist()
 	
 	if Settings.settings.has("Playmat") and Settings.settings.Playmat.size() > 0:
 		playmat = Image.new()
@@ -236,7 +243,91 @@ func _on_deck_import_cancelled():
 func _on_deck_import_confirmed():
 	# Reuse code to switch to deck creation scene
 	_on_deck_creation_pressed()
-				
+
+# --- BGM playlist functions -------------------------------------------------
+func _collect_audio_files() -> Array:
+	var found := []
+	var exts := [".mp3", ".ogg", ".wav", ".flac", ".aiff"]
+	for base in ["user://Music", "res://Music"]:
+		var dir = DirAccess.open(base)
+		if dir:
+			for fname in dir.get_files():
+				for ext in exts:
+					if fname.to_lower().ends_with(ext):
+						found.append(base + "/" + fname)
+						break
+	return found
+
+func _setup_bgm_playlist() -> void:
+	# Try to find the BGM AudioStreamPlayer node anywhere in the scene
+	var bgm_node = get_tree().get_root().find_child("BGM", true, false)
+	if bgm_node == null:
+		print("[BGM Playlist] Could not find BGM node in scene tree.")
+		return
+	# Gather audio files from user and res folders, try loading them as AudioStream resources
+	var files = _collect_audio_files()
+	print("Found audio files: ", files)
+	_bgm_playlist.clear()
+	for p in files:
+		var res = ResourceLoader.load(p)
+		if res != null:
+			_bgm_playlist.append(res)
+	print("Loaded playlist size: ", _bgm_playlist.size())
+	if _bgm_playlist.size() == 0:
+		print("No audio files loaded, using default BGM")
+		return
+	# shuffle and start playback
+	_bgm_playlist.shuffle()
+	_bgm_index = 0
+	bgm_node.stop()  # Stop current playback
+	bgm_node.stream = _bgm_playlist[_bgm_index]
+	bgm_node.autoplay = true
+	bgm_node.play()
+	_show_now_playing()
+	# connect finished signal to advance playlist
+	if not bgm_node.finished.is_connected(_on_bgm_finished):
+		bgm_node.finished.connect(_on_bgm_finished)
+
+func _on_bgm_finished() -> void:
+	if _bgm_playlist.size() == 0:
+		return
+	_bgm_index = (_bgm_index + 1) % _bgm_playlist.size()
+	var bgm_node = get_tree().get_root().find_child("BGM", true, false)
+	if bgm_node == null:
+		return
+	bgm_node.stream = _bgm_playlist[_bgm_index]
+	bgm_node.play()
+	_show_now_playing()
+# Now Playing helper and skip function
+func _show_now_playing() -> void:
+	if _bgm_playlist.size() == 0:
+		return
+	var popup = get_tree().get_root().find_child("NowPlayingPopup", true, false)
+	if popup == null:
+		return
+	var stream = _bgm_playlist[_bgm_index]
+	var song_title = ""
+	if typeof(stream) == TYPE_OBJECT and stream is Resource:
+		# try to get filename from resource_path when available
+		if stream.resource_path != "":
+			song_title = stream.resource_path.get_file()
+		else:
+			song_title = str(stream)
+	else:
+		song_title = str(stream)
+	popup.show_now_playing(song_title)
+
+func skip_bgm_track() -> void:
+	if _bgm_playlist.size() == 0:
+		return
+	_bgm_index = (_bgm_index + 1) % _bgm_playlist.size()
+	var bgm_node = get_tree().get_root().find_child("BGM", true, false)
+	if bgm_node == null:
+		return
+	bgm_node.stream = _bgm_playlist[_bgm_index]
+	bgm_node.play()
+	_show_now_playing()
+
 # Variant: Whether Dictionary or null
 # Convert from base64 string to JSON string, then convert to dictionary
 func _parse_deck_code(deck_data: String, allow_log: bool=false) -> Variant:

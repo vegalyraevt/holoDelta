@@ -2177,3 +2177,7 @@ msgstr "LIMITED: Only one can be used per turn."
 
 #~ msgid "OSHI"
 #~ msgstr "Oshi"
+
+#: Scenes/board.tscn
+msgid "ACTION_SKIPSONG"
+msgstr "Skip Song (BGM)"

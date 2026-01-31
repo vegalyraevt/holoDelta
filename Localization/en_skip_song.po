@@ -1,0 +1,3 @@
+#: Scenes/board.tscn
+msgid "ACTION_SKIPSONG"
+msgstr "Skip Song (BGM)"

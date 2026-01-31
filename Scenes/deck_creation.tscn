@@ -15,8 +15,14 @@
 [ext_resource type="AudioStream" uid="uid://dx0hyqv3whb28" path="res://ChikuTaku The Game VGM Menu Select Watson Amelia WUNDER RiKU ✨ チクタク オリジナル曲.mp3" id="10_ncvki"]
 [ext_resource type="Script" uid="uid://dpmwhedq5ws5x" path="res://addons/HTTPManager/classes/HTTPManager.gd" id="11_h6gkd"]
 
+[ext_resource type="PackedScene" path="res://Scenes/NowPlayingPopup.tscn" id="100_nowplaying"]
+[ext_resource type="PackedScene" path="res://Scenes/SkipSongButton.tscn" id="101_skipsong"]
+
 [node name="DeckCreation" type="Node2D"]
 script = ExtResource("1_vhmc0")
+
+[node name="NowPlayingPopup" parent="." instance=ExtResource("100_nowplaying")]
+[node name="SkipSongButtonLayer" parent="." instance=ExtResource("101_skipsong")]
 
 [node name="DeckBuilderBg" type="Sprite2D" parent="."]
 position = Vector2(587, 347)
@@ -825,11 +831,7 @@ text = "LOADING"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="BGM" type="AudioStreamPlayer" parent="."]
-stream = ExtResource("10_ncvki")
-volume_db = -18.0
-autoplay = true
-bus = &"BGM"
+
 
 [node name="HTTPManager" type="Node" parent="."]
 script = ExtResource("11_h6gkd")

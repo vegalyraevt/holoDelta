@@ -38,6 +38,9 @@
 [ext_resource type="PackedScene" uid="uid://chrab4uqxsh2s" path="res://Scenes/info_panel.tscn" id="24_jpb5x"]
 [ext_resource type="Script" uid="uid://dgf76yudwd033" path="res://Scenes/force_android_keyboard.gd" id="28_6ha0t"]
 
+[ext_resource type="PackedScene" path="res://Scenes/NowPlayingPopup.tscn" id="100_nowplaying"]
+[ext_resource type="PackedScene" path="res://Scenes/SkipSongButton.tscn" id="101_skipsong"]
+
 [sub_resource type="Gradient" id="Gradient_8vfua"]
 colors = PackedColorArray(0.691703, 0.82893, 0.968311, 1, 0.989179, 0.909736, 0.929764, 1)
 
@@ -70,6 +73,9 @@ bg_color = Color(0.27451, 0.760784, 1, 1)
 position = Vector2(1020, 1566)
 script = ExtResource("3_0fpdy")
 player_side = ExtResource("1_ima0g")
+
+[node name="NowPlayingPopup" parent="." instance=ExtResource("100_nowplaying")]
+[node name="SkipSongButton" parent="." instance=ExtResource("101_skipsong")]
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
@@ -678,6 +684,7 @@ text = "["
 script = ExtResource("14_x8gke")
 action = "Last Step"
 
+
 [node name="NextStepLabel" type="Label" parent="CanvasLayer/OptionPanel/OptionMargins/OptionScrollContainer/OptionsVBox/KeybindingsGridContainer"]
 auto_translate_mode = 1
 custom_minimum_size = Vector2(300, 20)
@@ -696,6 +703,25 @@ theme = ExtResource("5_fdkx6")
 text = "]"
 script = ExtResource("14_x8gke")
 action = "Next Step"
+
+[node name="SkipSongLabel" type="Label" parent="CanvasLayer/OptionPanel/OptionMargins/OptionScrollContainer/OptionsVBox/KeybindingsGridContainer"]
+auto_translate_mode = 1
+custom_minimum_size = Vector2(300, 20)
+layout_mode = 2
+size_flags_vertical = 6
+theme = ExtResource("5_fdkx6")
+text = "ACTION_SKIPSONG"
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="SkipSong" type="Button" parent="CanvasLayer/OptionPanel/OptionMargins/OptionScrollContainer/OptionsVBox/KeybindingsGridContainer"]
+auto_translate_mode = 2
+layout_mode = 2
+size_flags_horizontal = 3
+theme = ExtResource("5_fdkx6")
+text = "X"
+script = ExtResource("14_x8gke")
+action = "bgm_skip"
 
 [node name="LobbyPanel" type="PanelContainer" parent="CanvasLayer"]
 unique_name_in_owner = true
@@ -2217,11 +2243,7 @@ timeout = 10.0
 max_retries = 1
 print_debug = true
 
-[node name="BGM" type="AudioStreamPlayer" parent="."]
-stream = ExtResource("19_vg3fm")
-volume_db = -15.0
-autoplay = true
-bus = &"BGM"
+
 
 [node name="WebSocket" type="Node" parent="."]
 unique_name_in_owner = true

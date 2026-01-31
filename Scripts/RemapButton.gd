@@ -13,6 +13,7 @@ func _init():
 
 func _ready():
 	set_process_unhandled_input(false)
+	# If a key is saved in settings, use it. Otherwise, use current InputMap assignment.
 	if Settings.settings.has(action):
 		var event = InputEventKey.new()
 		event.keycode = OS.find_keycode_from_string(Settings.settings[action])
@@ -37,9 +38,14 @@ func _unhandled_input(event):
 	if event.pressed:
 		InputMap.action_erase_events(action)
 		InputMap.action_add_event(action, event)
+		# Save the new key assignment to settings
+		Settings.update_settings(action, event.as_text_keycode())
 		button_pressed = false
 
 
 func update_key_text():
-	text = InputMap.action_get_events(action)[0].as_text()
-	Settings.update_settings(action,InputMap.action_get_events(action)[0].as_text_keycode())
+	var events = InputMap.action_get_events(action)
+	if events.size() > 0:
+		text = events[0].as_text()
+	else:
+		text = tr("Unassigned")
