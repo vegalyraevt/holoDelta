@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource path="res://Scripts/SkipSongButton.gd" type="Script" id=1]
+
+[node name="SkipSongButtonLayer" type="CanvasLayer"]
+
+[node name="SkipSongButton" type="Button" parent="."]
+script = ExtResource( 1 )

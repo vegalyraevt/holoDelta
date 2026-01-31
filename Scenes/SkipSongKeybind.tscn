@@ -1,0 +1,18 @@
+[node name="SkipSongLabel" type="Label" parent="CanvasLayer/OptionPanel/OptionMargins/OptionScrollContainer/OptionsVBox/KeybindingsGridContainer"]
+auto_translate_mode = 1
+custom_minimum_size = Vector2(300, 20)
+layout_mode = 2
+size_flags_vertical = 6
+theme = ExtResource("5_fdkx6")
+text = "ACTION_SKIPSONG"
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="SkipSong" type="Button" parent="CanvasLayer/OptionPanel/OptionMargins/OptionScrollContainer/OptionsVBox/KeybindingsGridContainer"]
+auto_translate_mode = 2
+layout_mode = 2
+size_flags_horizontal = 3
+theme = ExtResource("5_fdkx6")
+text = "X"
+script = ExtResource("14_x8gke")
+action = "bgm_skip"
